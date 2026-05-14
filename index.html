@@ -1,0 +1,139 @@
+<head>
+  <link rel="stylesheet" href="styles.css">
+    <script>
+     function sendEmail() {
+       window.location.href = "mailto:luisecab@ucm.com";
+     }
+   </script>
+</head>
+
+<body>
+
+    <h1 class="header">
+        Luis Enrique Cabello Blanco
+    </h1>
+    <h2 class="header">
+        Game Developer
+    </h2>
+
+
+    <div style="display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 3px; grid-auto-rows: minmax(100px, auto); padding: 5%;">
+
+        <div class="block">
+            <img
+                id="ProfilePick"
+                src="https://media.licdn.com/dms/image/v2/D5603AQGJQzgZySMwyA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1729112467328?e=1780531200&v=beta&t=7TcPNQNRMNm-e9d4PxwJwCv-eZX0ltNQL4mr4LcW5TE"
+                alt="Foto de Perfil"
+                >
+        </div>
+
+        <div class="block" style="grid-column: 2/5; grid-row: 1/1;">
+            <div>
+                <h3 class="header"> About Me</h3>
+                <p style="font-size: 30px;">Hiii, my name is Luis. Im a pasionate game developer, focused in computer graphics. I love to make proyects that makes othrers live easyer.</p>
+                <div style="display: flex; flex-direction: row; gap: 100px">
+                    <div>
+                        <h3 class="header">Contact</h3>
+                        <button type="button" onclick=sendEmail()>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1280px-Gmail_icon_%282020%29.svg.png" style="height: 25px;" alt="Icon"> Gmail
+                        </button>
+                        <button type="button" onclick="location.href='https://www.linkedin.com/in/luis-enrique-cabello-blanco-297594333/'">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/3840px-LinkedIn_icon.svg.png" style="height: 25px;" alt="Icon">
+                            LinkedIn
+                        </button>
+                    </div>
+
+                    <div>
+                        <h3 class="header">Sites</h3>
+                        <button type="button" onclick="location.href='https://github.com/LuisEnriqueCabelloBlanco'">
+                            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" style="height: 25px;" alt="Icon">
+                            GitHub
+                        </button>
+                        <button type="button" onclick="location.href='https://luisecab.itch.io'">
+                            <img src="https://images.icon-icons.com/2407/PNG/512/itch_icon_146025.png" style="height: 25px;" alt="Icon">
+                            Ithc.io
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <section id ="TechnicalSection">
+        <h3 class="header">Programing Languages</h3>
+
+        <div style="display: flex; flex-direction: row; gap: 30px;">
+            <img src="assets/ISO_C++_Logo.png" alt="Movida" class="techImages">
+            <img src="assets/JavaScript.png" alt="Movida" class="techImages">
+        </div>
+
+        <h3 class="header">Technologies</h3>
+
+        <div style="display: flex; flex-direction: row; gap: 30px;">
+            <img src="assets/Unity-Logo.png" alt="Movida" class="techImages">
+            <img src="assets/Android_Studio_icon_(2023).png" alt="Movida" class="techImages">
+            <img src="assets/Git_icon.png" alt="Movida" class="techImages">
+        </div>
+
+        <h3 class="header">Libraries</h3>
+
+        <div style="display: flex; flex-direction: row; gap: 30px;">
+            <img src="assets/Vulkan.png" alt="Movida" class="techImages">
+            <img src="assets/Simple_DirectMedia_Layer,_Logo.svg" alt="Movida" class="techImages">
+            <img src="assets/fmod.jpg" alt="Movida" class="techImages">
+        </div>
+
+    </section>
+
+
+    <section>
+        <h3 class="header" style="font-size: 50px;">My projects</h3>
+        <h4 class="header">These are my best projects</h4>
+
+        <div style="display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 50px; grid-auto-rows: minmax(100px, auto); margin: 3%;">
+
+            <div class="block" style="flex-direction:row; display: flex; gap: 2%;">
+                <div style="height: 300xp;">
+                    <h3 class="header">Mail to Atlantis</h3>
+                    <div class="projectImageList">
+                        <img src="assets/ISO_C++_Logo.png" alt="Movida" class="techImagesProjects">
+                        <img src="assets/Simple_DirectMedia_Layer,_Logo.svg" alt="Movida" class="techImagesProjects">
+                    </div>
+                    <p>Point and click adventure under the sea Papers Please-like based in packages</p>
+                </div>
+                <!--<img src="Robert_Downey,_Jr._2012.jpg" alt="Movida" style="height: 300px;">-->
+            </div>
+
+            <div class="block" style="flex-direction:row; display: flex; gap: 2%;">
+                <div style="height: 300xp;">
+                    <h3 class="header">Vulkan Deferred Engine (WIP)</h3>
+                    <div class="projectImageList">
+                        <img src="assets/ISO_C++_Logo.png" alt="Movida" class="techImagesProjects">
+                        <img src="assets/Vulkan.png" alt="Movida" class="techImagesProjects">
+                    </div>
+                    <p>Render engine Vulkan based that use Deferred Shading for lighting</p>
+                </div>
+                <!--<img src="Robert_Downey,_Jr._2012.jpg" alt="Movida" style="height: 300px;">-->
+            </div>
+
+            <div class="block" style="flex-direction:row; display: flex; gap: 2%;">
+                <div style="height: 300xp;">
+                    <h3 class="header">BeatWave</h3>
+
+                    <div class="projectImageList">
+                        <img src="assets/Unity-Logo.png" alt="Movida" class="techImagesProjects">
+                        <img src="assets/fmod.jpg" alt="Movida" class="techImagesProjects">
+                    </div>
+
+                    <p>Rithm Game where you need to resize a cube at the beat of the music</p>
+                </div>
+                <!--<img src="Robert_Downey,_Jr._2012.jpg" alt="Movida" style="height: 300px;">-->
+            </div>
+        </div>
+
+
+    </section>
+
+
+</body>
