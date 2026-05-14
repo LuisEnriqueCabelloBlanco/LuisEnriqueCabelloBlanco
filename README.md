@@ -11,7 +11,7 @@
 
 [![Luis Enrique Cabello Blanco](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luis-enrique-cabello-blanco-297594333/)
 [![luisecab@ucm.es](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:luisecab@ucm.es)
-[![legionario2040](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discordapp.com/users/)
+[![legionario2040](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/254588585062301708)
 
 ## Technologies
 <!--
